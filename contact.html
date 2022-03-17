@@ -1,27 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a12c552abb.js" crossorigin="anonymous"></script>
     <title>Document</title>
-    <!-- Remember to link to your CSS file! -->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+   
 </head>
 <body>
     <!-- CONTACT PAGE -->
-    <!-- TODO: Navbar here -->
-    <!-- TODO: Banner Image here-->
+    <!-- TODO: Navbar here Done-->
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="menu.html">Menu</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- TODO: Banner Image here , done - tried to do teh id in the img tag and couldn't figure why the #banner wasn't working, only worked when used div-->
+    <div id="banner">
+        <img  alt="Banner logo" src="../HTML-Restaurant-Menu/assets/images/banner.png " 
+        />
+        </div>
     <main>
-        <h2>Hours of Operation</h2>
+        <h2>Hours of Operation</h2>  
+      
         <p>
             <strong>Monday-Friday:</strong> 11:00am-8:30pm
         </p>
         <p>
             <strong>Saturday-Sunday:</strong> 1:00pm-10:00pm
         </p>
+        <i class="fa-solid fa-face-laugh-squint"></i>
         <h2>Contact Info</h2>
-        <p>
-            <strong>Phone Number:</strong> TBD
-        </p>
+       
+        <p> <strong>Phone Number:</strong> 913-867-5309 </p>
+        <i class="fa-solid fa-mobile-screen"></i>
+        
+        <Address>555 West Magical St, Kansas City</Address>
+        <i class="fa-solid fa-location-dot"></i>
+
+        <p>HThaiML@gmail.com</p> 
+        <i class="fa-solid fa-at"></i>  
+<!-- It took me awhile to figure out or atleast go through the full sign up portion on the icons. I used the set up get started code in the email and that was not correct!-->
+        
     </main>
 </body>
 </html>
